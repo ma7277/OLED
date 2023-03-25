@@ -4,7 +4,6 @@
 
 # Verzeichnisstruktur
 
-# Moin
 #Name der Projekts/Vorlesung:
 <Mathematik I>
 Projektname:
