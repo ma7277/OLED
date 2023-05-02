@@ -1,3 +1,10 @@
+Ideen
+
 1. Drehzahlmesser
 2. Dezibelmessgerät
 3. Vibrationsmessgerät
+
+Aufgabenverteilung
+
+OLED-Display Hardwarebeschreibung  (bis 10.05.23)
+Arduino Hardwarebeschreibung (bis 10.05.23)
