@@ -1,13 +1,14 @@
-
-\documentclass{article}
+\documentclass[12pt,a4paper,openany]{scrbook}
 \usepackage{graphicx}
 \usepackage{hyperref}
 
 \begin{document}
 
-\newpage		%Test-Materialliste
 
-%\chapter{Materialliste}
+\newpage		%Test-Materialliste
+\include{TitlePage}
+
+\chapter{Materialliste}
 
 \begin{table}[]
 	\begin{tabular}{l|l|l|l|l}
@@ -15,19 +16,37 @@
 		\hline
 		1		& 	 		
 			\begin{minipage}[t]{4cm}\centering %wenn Beispielbild mittig unters Bild soll
-			\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{Ardnano.png}\par%
+			\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{KIT.png}\par%
 			ARDUINO TINY MACHINE LEARNING KIT
 			\end{minipage}		&  \href{https://www.reichelt.de/de/de/arduino-lern-kit-tiny-machine-ard-kit-tinyml-p304338.html?search=arduino+nano+sense+lite&&r=1 }{Reichelt-Arduino.de} & 35€ & 1-2 Werktage \\
 		\hline
-		1		& 	
+		1		&  
+		\begin{minipage}[t]{4cm}\centering %wenn Beispielbild mittig unters Bild soll
+		\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{Ardnano.png}\par%
+			Arduino Nano 33 BLE Sense Lite
+		\end{minipage}	& Enthalten im KIT & &  \\
+				\hline
+		1		&  
 			\begin{minipage}[t]{4cm}\centering %wenn Beispielbild mittig unters Bild soll
-			\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=4cm]{ARD-OLED.jpg}\par%
-			ARD OLED 0.96 Arduino - Display 0,96", OLED-Display, SSD1306 
-			\end{minipage}		& 
-			\href{https://www.reichelt.de/arduino-display-0-96-oled-display-ssd1306-ard-oled-0-96-p320600.html?&trstct=pos_0&nbc=1 }{Reichelt-OLED.de}& 18€ & 1-2 Werktage     \\
+			\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{Kameramodul.png}\par%
+			Kameramodul (OV7675)
+		\end{minipage}	& Enthalten im KIT & &  \\
 		\hline
 		1		&  
-			Verbindungskabel	& & &  
+		\begin{minipage}[t]{4cm}\centering %wenn Beispielbild mittig unters Bild soll
+		\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{Shield.png}\par%
+		Custom Arduino Shield
+		\end{minipage}		& Enthalten im KIT & &  \\
+		\hline
+		1		&  
+		USB-A zu USB-Micro Kabel	& Enhalten im KIT & &  \\
+		\hline
+		1		& 	
+		\begin{minipage}[t]{4cm}\centering %wenn Beispielbild mittig unters Bild soll
+		\vspace{-\ht\strutbox}\includegraphics[width=4cm, height=3cm]{DEBO_OLED.jpg}\par%
+		DEBO OLED2 0.96 Entwicklerboards - Display, 0,96", OLED-Display, SSD1306
+		\end{minipage}		& 
+		\href{https://www.reichelt.de/entwicklerboards-display-0-96-oled-display-ssd1306-debo-oled2-0-96-p266107.html?&trstct=pos_1&nbc=1 }{Reichelt-OLED.de}& 7,99€ & 1-2 Werktage     
 			
 	\end{tabular}
 \end{table}
