@@ -272,6 +272,3 @@ TSWLatexianTemp*
 # standalone packages
 *.sta
 
-# Makeindex log files
-*.lpz
-Hardwarebeschreibung_Arduiono.docx
